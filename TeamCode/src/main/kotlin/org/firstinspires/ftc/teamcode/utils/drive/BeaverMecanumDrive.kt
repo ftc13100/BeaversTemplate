@@ -11,13 +11,11 @@ import com.qualcomm.robotcore.hardware.*
 import org.firstinspires.ftc.teamcode.constants.ControlBoard.*
 import org.firstinspires.ftc.teamcode.roadrunner.drive.DriveConstants.*
 import org.firstinspires.ftc.teamcode.roadrunner.drive.SampleMecanumDrive
-import org.firstinspires.ftc.teamcode.roadrunner.drive.SampleMecanumDrive.LATERAL_MULTIPLIER
 import org.firstinspires.ftc.teamcode.roadrunner.drive.StandardTrackingWheelLocalizer
 import org.firstinspires.ftc.teamcode.roadrunner.trajectorysequence.TrajectorySequenceRunner
 import org.firstinspires.ftc.teamcode.roadrunner.util.LynxModuleUtil
-import java.util.*
 
-class DriveSubsystem(
+class BeaverMecanumDrive(
     hardwareMap: HardwareMap,
 ) : MecanumDrive(
     kV,
